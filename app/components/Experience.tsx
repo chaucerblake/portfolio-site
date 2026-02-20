@@ -2,51 +2,43 @@
 
 const experiences = [
   {
-    role: "Team Lead, Financial Planning",
-    company: "TD",
-    period: "Feb 2024 — Present",
+    role: "Remote Account Manager, SMB",
+    company: "TD Canada Trust",
+    location: "Toronto, ON",
+    period: "Oct 2024 — Dec 2025",
     description:
-      "Leading a team of 20+ financial planners, driving strategic planning, KPI tracking, and cross-functional collaboration with TD's Emerging Technology and AI units.",
+      "Managed end-to-end deal support for a $1M+ SMB portfolio in Salesforce, led a team of 12 BDRs, and served as commercial liaison to TD Innovation Partners — TD's internal AI and automation unit.",
     highlights: [
-      "Spearhead operational workflows improving team productivity",
-      "Partner with AI and Emerging Technology teams on new product initiatives",
-      "Manage end-to-end team performance, hiring, and development",
+      "Achieved 150% SR and 148% Units YoY through rigorous pipeline discipline and partner relationship management",
+      "Led 12 BDRs on partner engagement, pipeline hygiene, and outreach prioritization",
+      "Translated AI/automation capabilities into partner-facing value, supporting rollouts that generated net-new revenue",
+      "Provided leadership with visibility into partner performance trends, deal registration gaps, and pipeline conversion",
     ],
   },
   {
-    role: "Senior Financial Advisor",
-    company: "TD",
-    period: "Sep 2022 — Feb 2024",
+    role: "Account Manager, SMB",
+    company: "TD Canada Trust",
+    location: "Fergus, ON",
+    period: "Sep 2023 — Oct 2024",
     description:
-      "Top-tier advisor managing complex financial portfolios while mentoring junior advisors and collaborating on digital transformation projects.",
+      "Promoted from BDR into first Account Manager role — managed 2–5 junior staff, an SMB client portfolio, and both internal and external partner relationships across the Fergus region.",
     highlights: [
-      "Achieved and exceeded all sales targets consistently",
-      "Led mentorship programs for new team members",
-      "Contributed to process optimization and digital adoption initiatives",
+      "Promoted based on consistent performance and leadership potential",
+      "Managed SMB client portfolio and regional partner relationships end-to-end",
+      "Transitioned to remote-first Toronto territory upon promotion to senior role",
     ],
   },
   {
-    role: "Financial Advisor",
-    company: "TD",
-    period: "Mar 2020 — Sep 2022",
+    role: "Business Development Representative",
+    company: "Toronto-Dominion Canada Trust",
+    location: "Toronto, ON",
+    period: "May 2018 — Sep 2023",
     description:
-      "Built and managed a growing book of business, delivering personalized financial solutions through data-driven needs assessments.",
+      "Supported senior Account Managers on deal execution, managed partner tiers, and ran targeted re-engagement campaigns that drove measurable pipeline growth.",
     highlights: [
-      "Grew client portfolio through consultative, needs-based approach",
-      "Leveraged data analytics to identify client opportunities",
-      "Recognized for client satisfaction and retention",
-    ],
-  },
-  {
-    role: "Customer Service Representative",
-    company: "TD",
-    period: "Jun 2018 — Mar 2020",
-    description:
-      "Started my career at TD, building a strong foundation in client relations, financial products, and operational excellence.",
-    highlights: [
-      "Delivered exceptional client service across multiple product lines",
-      "Built deep product knowledge across banking and investment services",
-      "Identified for fast-track development and promotion",
+      "Drove a 30% increase in new SMB business in Q1 by reactivating dormant partner pipeline",
+      "Maintained CRM accuracy and deal registration compliance across a tiered partner portfolio",
+      "Flagged channel performance gaps to leadership and collaborated with Marketing & Operations on outreach alignment",
     ],
   },
 ];
@@ -65,8 +57,9 @@ export default function Experience() {
             <span className="text-accent">intentional growth.</span>
           </h2>
           <p className="text-lg text-dark-text/60 max-w-2xl mb-16">
-            Four promotions in seven years — each role a deliberate step toward
-            leading at the intersection of technology and business.
+            7+ years of full-cycle partner and account management — from
+            supporting deal execution to leading teams and managing $1M+ SMB
+            portfolios at TD Canada Trust.
           </p>
         </div>
 
@@ -86,12 +79,13 @@ export default function Experience() {
                 <div className="absolute left-0 md:left-8 top-2 w-3 h-3 -translate-x-1.5 rounded-full bg-accent shadow-lg shadow-accent/30" />
 
                 <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300 border border-black/5">
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-dark-text">
                         {exp.role}
                       </h3>
                       <p className="text-accent font-semibold">{exp.company}</p>
+                      <p className="text-dark-text/40 text-sm">{exp.location}</p>
                     </div>
                     <span className="text-sm text-dark-text/40 font-medium whitespace-nowrap">
                       {exp.period}

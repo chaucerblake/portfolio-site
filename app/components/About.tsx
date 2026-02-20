@@ -18,11 +18,11 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div className="space-y-6 fade-in-left">
             <p className="text-lg text-dark-text/70 leading-relaxed">
-              With over seven years of progressive growth in financial services,
-              I&apos;ve built my career at the intersection of leadership,
-              strategy, and technology. From managing high-performing teams to
-              collaborating with AI and emerging technology units, every step has
-              been intentional.
+              With 7+ years of full-cycle partner and account management at TD
+              Canada Trust, I&apos;ve built my career at the intersection of
+              revenue execution and technology. From managing $1M+ SMB
+              portfolios to leading BDR teams and collaborating with TD&apos;s
+              internal AI and automation unit, every step has been intentional.
             </p>
             <p className="text-lg text-dark-text/70 leading-relaxed">
               I&apos;m driven by a singular mission: to bridge the gap between
@@ -36,10 +36,10 @@ export default function About() {
           <div className="space-y-6 fade-in-right">
             {/* Stat cards */}
             {[
-              { number: "7+", label: "Years of Leadership" },
-              { number: "20+", label: "Team Members Managed" },
-              { number: "4", label: "Promotions Earned" },
-              { number: "1", label: "Mission: AI Product" },
+              { number: "7+", label: "Years in Partner & Account Management" },
+              { number: "150%", label: "SR Achievement YoY" },
+              { number: "12", label: "BDRs Led as Remote Account Manager" },
+              { number: "1", label: "Mission: AI Product Management" },
             ].map((stat, i) => (
               <div
                 key={i}
