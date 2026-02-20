@@ -25,7 +25,7 @@ export default function Contact() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:chaucer.blake@example.com"
+              href="mailto:Chaucerblake@icloud.com"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-accent hover:bg-accent-hover text-white text-sm font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/25"
             >
               <svg

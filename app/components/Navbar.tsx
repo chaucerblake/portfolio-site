@@ -29,7 +29,7 @@ export default function Navbar() {
           : "bg-transparent py-6"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between section-padding">
+      <div className="max-w-7xl mx-auto flex items-center justify-between section-padding relative">
         {/* Logo */}
         <a
           href="#"
@@ -38,8 +38,8 @@ export default function Navbar() {
           CB
         </a>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-8">
+        {/* Desktop Links — absolutely centered */}
+        <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
           {navLinks.map((link) => (
             <a
               key={link.href}
